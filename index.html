@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+  <meta name="theme-color" content="#1a3c28" />
+
+  <!-- Basic SEO -->
+  <title>Green Chilli | Authentic Indian Restaurant Menu</title>
+  <meta name="description"
+    content="Explore Green Chilli. Authentic Indian restaurant featuring fresh starters, hearty mains, desserts, and refreshing drinks in Gunupur. Open 11 AM - 11 PM." />
+  <meta name="keywords"
+    content="Green Chilli, Indian Restaurant, Gunupur, Menu, Food, Dine-in, Takeaway, Authentic Indian cuisine" />
+
+  <!-- Favicons / App Icons -->
+  <link rel="icon" type="image/png" sizes="32x32" href="logo.png" />
+  <link rel="apple-touch-icon" href="logo.png" />
+
+  <!-- Web App Manifest (PWA support) -->
+  <link rel="manifest" href="manifest.json" />
+
+  <!-- Open Graph / Social Media cards -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://greenchilligunupur.com/" />
+  <meta property="og:title" content="Green Chilli | Authentic Indian Menu" />
+  <meta property="og:description"
+    content="Bringing the bold flavors of India to your table — cooked fresh, served with love in Gunupur." />
+  <meta property="og:image" content="https://greenchilligunupur.com/logo.png" />
+
+  <!-- Twitter Cards -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:title" content="Green Chilli | Authentic Indian Menu" />
+  <meta property="twitter:description"
+    content="Bringing the bold flavors of India to your table — cooked fresh, served with love in Gunupur." />
+  <meta property="twitter:image" content="https://greenchilligunupur.com/logo.png" />
+
+  <!-- Preconnect for Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ========== HEADER / HERO ========== -->
+  <header class="site-header" role="banner">
+    <video autoplay loop muted playsinline class="header-video-bg">
+      <source src="greenchilli.mp4" type="video/mp4" />
+    </video>
+    <div class="header-content">
+      <div class="header-logo">
+        <div class="logo-icon" aria-hidden="true">🌶️</div>
+        <h1>Green <span>Chilli</span></h1>
+      </div>
+      <p class="header-tagline">Multi Cusine A/C Family Restaurant &bull; Crafted with Passion</p>
+      <div class="header-badges">
+        <span class="header-badge">🕐 Open 11 AM – 11 PM</span>
+        <span class="header-badge">📍 Dine-in &amp; Takeaway</span>
+        <span class="header-badge">🌿 Fresh Ingredients Daily</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========== STICKY CATEGORY NAV ========== -->
+  <nav class="category-nav-wrapper" aria-label="Menu categories">
+    <div class="category-nav" id="categoryNav" role="tablist">
+      <!-- Buttons injected by JS -->
+    </div>
+  </nav>
+
+  <!-- ========== SEARCH BAR ========== -->
+  <div class="search-bar-wrapper" aria-label="Search menu">
+    <div class="search-bar">
+      <span class="search-icon" aria-hidden="true">🔍</span>
+      <input type="search" id="searchInput" placeholder="Search dishes…" aria-label="Search dishes"
+        autocomplete="off" />
+    </div>
+    <button id="themeToggle" class="theme-toggle-btn" aria-label="Toggle Dark/Light Mode">
+      <span class="theme-icon mode-light">☀️</span>
+      <span class="theme-icon mode-dark">🌙</span>
+    </button>
+  </div>
+
+  <!-- ========== MAIN CONTENT ========== -->
+  <main class="main-content" id="main" role="main">
+
+    <!-- Menu sections rendered by JS -->
+    <div id="menuContainer" aria-live="polite"></div>
+
+    <!-- Empty state -->
+    <div class="empty-state" id="emptyState" role="status" aria-live="polite">
+      <div class="empty-icon">🍽️</div>
+      <h3>No dishes found</h3>
+      <p>Try a different search term or select another category.</p>
+    </div>
+
+  </main>
+
+  <!-- ========== PHOTO GALLERY ========== -->
+  <section class="photo-gallery-wrapper" aria-label="Restaurant Photos">
+    <div class="photo-gallery-header">
+      <h2 class="photo-gallery-heading">Our <span>Gallery</span></h2>
+      <p class="photo-gallery-sub">A glimpse into the Green Chilli experience</p>
+    </div>
+    <div class="photo-gallery">
+      <div class="photo-item"><img src="photo/25f721f7-4f85-4f64-9d96-54611a354b96.jpg" alt="Gallery Photo"
+          loading="lazy"></div>
+      <div class="photo-item"><img src="photo/2fa60247-dddb-4e08-81fd-42bddc62356c.jpg" alt="Gallery Photo"
+          loading="lazy"></div>
+      <div class="photo-item"><img src="photo/3b9a9c09-278a-432c-9444-8b05f3071908.jpg" alt="Gallery Photo"
+          loading="lazy"></div>
+      <div class="photo-item"><img src="photo/4ea02e8b-61e2-44db-8867-b1a07b3dc013.jpg" alt="Gallery Photo"
+          loading="lazy"></div>
+      <div class="photo-item"><img src="photo/6efd7a42-58f7-45c5-b72d-9dc1c688aeec.jpg" alt="Gallery Photo"
+          loading="lazy"></div>
+      <div class="photo-item"><img src="photo/875e26dd-8977-49f8-83bf-96984399e3bc.jpg" alt="Gallery Photo"
+          loading="lazy"></div>
+      <div class="photo-item"><img src="photo/bcda712f-c2ff-4381-b011-1fd1485936d6.jpg" alt="Gallery Photo"
+          loading="lazy"></div>
+      <div class="photo-item"><img src="photo/c2c7bf0d-d852-4404-af1c-2ee46d8a9459.jpg" alt="Gallery Photo"
+          loading="lazy"></div>
+      <div class="photo-item"><img src="photo/d76bff53-32c5-49bb-905f-526995cae88d.jpg" alt="Gallery Photo"
+          loading="lazy"></div>
+      <div class="photo-item"><img src="photo/de62d1d1-dfcd-444a-8704-26823e4fddd5.jpg" alt="Gallery Photo"
+          loading="lazy"></div>
+      <div class="photo-item"><img src="photo/df4da5d8-dcf4-4689-8670-afb9d04c78a6.jpg" alt="Gallery Photo"
+          loading="lazy"></div>
+      <div class="photo-item"><img src="photo/e24e7cb3-698f-4410-af10-bfaf197fade7.jpg" alt="Gallery Photo"
+          loading="lazy"></div>
+      <div class="photo-item"><img src="photo/f3ed9bae-57f3-45c8-9974-b4609d421bc7.jpg" alt="Gallery Photo"
+          loading="lazy"></div>
+      <div class="photo-item"><img src="photo/fd4d8f3e-a863-4bab-952d-ccffceb1efcb.jpg" alt="Gallery Photo"
+          loading="lazy"></div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <div class="footer-grid">
+
+        <!-- Brand -->
+        <div class="footer-brand">
+          <h2>Green <span>Chilli</span></h2>
+          <p>Bringing the bold flavors of India to your table — cooked fresh, served with love.</p>
+        </div>
+
+        <!-- Contact -->
+        <div class="footer-col">
+          <h3>Contact Us</h3>
+          <ul>
+            <li>
+              <span class="fi" aria-hidden="true">📞</span>
+              <div>
+                <a href="tel:+917684889786">+91 7684889786</a><br />
+                <a href="tel:+917077505173">+91 7077505173</a>
+              </div>
+            </li>
+            <li>
+              <span class="fi" aria-hidden="true">📧</span>
+              <a href="mailto:thenewgreenchilli@gmail.com">thenewgreenchilli@gmail.com</a>
+            </li>
+            <li>
+              <span class="fi" aria-hidden="true">📍</span>
+              <span>
+                Main Road, New Bus Stand, Gunupur<br />
+                Gunupur – 765022
+              </span>
+            </li>
+          </ul>
+          <a href="https://maps.app.goo.gl/Wyb91Vik9RDBFDBw7?g_st=aw" target="_blank" rel="noopener noreferrer"
+            class="footer-map-btn" aria-label="Open Green Chilli location in Google Maps">
+            🗺️ &nbsp;View on Google Maps
+          </a>
+          <a href="https://www.instagram.com/thenewgreenchilly/" target="_blank" rel="noopener noreferrer"
+            class="footer-map-btn"
+            style="background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); margin-top: 10px;"
+            aria-label="Follow Green Chilli on Instagram">
+            📸 &nbsp;Follow on Instagram
+          </a>
+        </div>
+
+        <!-- Hours -->
+        <div class="footer-col">
+          <h3>Opening Hours</h3>
+          <div class="hours-grid">
+            <span class="day">Mon – Sun</span>
+            <span class="time">10 AM – 11 PM</span>
+          </div>
+
+          <ul style="margin-top:20px;">
+            <li>
+              <span class="fi" aria-hidden="true">📱</span>
+              <span>Order on The New Green Chilli Menu By Using The Contact Number</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <hr class="footer-divider" />
+
+      <div class="footer-bottom"
+        style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+        <span>© 2025 Green Chilli Restaurant. All rights reserved.</span>
+        <span style="font-size: 0.7rem; opacity: 0.7; text-align: right;">This Website is Created by <a href="#"
+            style="color: var(--green-light); text-decoration: none;" target="_blank" rel="noopener noreferrer">Ankit
+            Kumar Nayak |
+            For More Info Contact +91-7847046689</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== SCROLL TO TOP ========== -->
+  <button id="scrollTop" title="Back to top" aria-label="Scroll to top">↑</button>
+
+  <!-- ========== SCRIPTS ========== -->
+  <script src="app.js" defer></script>
+</body>
+
+</html>

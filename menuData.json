@@ -1,0 +1,2752 @@
+[
+    {
+        "id": 9201,
+        "name": "VEG FRIED RICE",
+        "description": "Flavorful stir-fried rice with assorted crispy vegetables and light soy sauce",
+        "price": 110,
+        "category": "Chinese Rice",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 9202,
+        "name": "MIX VEG FRIED RICE",
+        "description": "A colorful medley of garden vegetables stir-fried with premium rice",
+        "price": 160,
+        "category": "Chinese Rice",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 9203,
+        "name": "PANEER FRIED RICE",
+        "description": "Classic Chinese fried rice tossed with golden fried paneer cubes",
+        "price": 150,
+        "category": "Chinese Rice",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 9204,
+        "name": "MUSHROOM FRIED RICE",
+        "description": "Earthy mushrooms wok-tossed with rice and aromatic garlic",
+        "price": 150,
+        "category": "Chinese Rice",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 9205,
+        "name": "VEG SCHEZWAN FRIED RICE",
+        "description": "Zesty and spicy fried rice tossed in our fiery house-made Schezwan sauce",
+        "price": 120,
+        "category": "Chinese Rice",
+        "group": "Menu",
+        "veg": true,
+        "tag": "Spicy"
+    },
+    {
+        "id": 9206,
+        "name": "MIX VEG SCHEZWAN FRIED RICE",
+        "description": "Spicy Schezwan rice packed with a colorful variety of seasonal vegetables",
+        "price": 170,
+        "category": "Chinese Rice",
+        "group": "Menu",
+        "veg": true,
+        "tag": "Spicy"
+    },
+    {
+        "id": 9207,
+        "name": "CHICKEN FRIED RICE",
+        "description": "Wok-tossed rice with tender shredded chicken, egg, and vegetables",
+        "price": 160,
+        "category": "Chinese Rice",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 9208,
+        "name": "MIX NON VEG FRIED RICE",
+        "description": "The ultimate fried rice loaded with chicken, egg, and tender mutton/prawns",
+        "price": 180,
+        "category": "Chinese Rice",
+        "group": "Menu",
+        "veg": false,
+        "tag": "Chef's Pick"
+    },
+    {
+        "id": 9209,
+        "name": "CHICKEN SCHEZWAN FRIED RICE",
+        "description": "Spicy Schezwan fried rice loaded with flavorful chicken strips",
+        "price": 180,
+        "category": "Chinese Rice",
+        "group": "Menu",
+        "veg": false,
+        "tag": "Spicy"
+    },
+    {
+        "id": 9210,
+        "name": "EGG FRIED RICE",
+        "description": "Comforting Chinese fried rice tossed with fluffy scrambled eggs and scallions",
+        "price": 140,
+        "category": "Chinese Rice",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 9101,
+        "name": "CRISPY CHANA",
+        "description": "Crunchy fried chickpeas tossed with spicy masala",
+        "price": 120,
+        "category": "Starter Indian",
+        "group": "Menu",
+        "veg": true,
+        "tag": "Spicy"
+    },
+    {
+        "id": 9102,
+        "name": "VEG PAKODA",
+        "description": "Crispy deep-fried mixed vegetable fritters served with chutney",
+        "price": 70,
+        "category": "Starter Indian",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 9103,
+        "name": "PANEER PAKODA",
+        "description": "Soft cottage cheese cubes dipped in spiced gram flour batter and fried",
+        "price": 110,
+        "category": "Starter Indian",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 9104,
+        "name": "MUSHROOM PAKODA",
+        "description": "Fresh mushrooms coated in seasoned batter and golden fried",
+        "price": 110,
+        "category": "Starter Indian",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 9105,
+        "name": "CHICKEN PAKODA",
+        "description": "Spiced bite-sized chicken pieces deep-fried until crisp",
+        "price": 110,
+        "category": "Starter Indian",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 9106,
+        "name": "CHICKEN PAKODA B/L",
+        "description": "Boneless spiced chicken pieces deep-fried until crisp",
+        "price": 170,
+        "category": "Starter Indian",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 9107,
+        "name": "EGG PAKODA",
+        "description": "Hard-boiled eggs encased in a crispy spiced grammatical flour crust",
+        "price": 70,
+        "category": "Starter Indian",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 9001,
+        "name": "PANEER TIKKA",
+        "description": "Marinated paneer chunks grilled to perfection in a tandoor",
+        "price": 200,
+        "category": "Kabab Veg",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 9002,
+        "name": "MUSHROOM TIKKA",
+        "description": "Earthy mushrooms marinated in aromatic spices and tandoor grilled",
+        "price": 200,
+        "category": "Kabab Veg",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 24,
+        "name": "Masala Cold Drinks",
+        "description": "Refreshing chilled drink spiced with tangy masala — a classic street-style cooler",
+        "price": 30,
+        "category": "Drinks",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 25,
+        "name": "Soft Drinks",
+        "description": "Your choice of chilled soft drink served as per order (Pepsi, 7Up, Mirinda, etc.)",
+        "price": 0,
+        "category": "Drinks",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 9301,
+        "name": "CHICKEN PAKODA SOUP",
+        "description": "Flavorful chicken soup topped with crispy chicken pakoda pieces",
+        "price": 80,
+        "category": "Soup",
+        "group": "Snacks",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 30,
+        "name": "Veg Sweet Corn Soup",
+        "description": "Creamy and comforting vegetable broth with tender sweet corn kernels",
+        "price": 50,
+        "category": "Soup",
+        "group": "Snacks",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 31,
+        "name": "Chicken Sweet Corn Soup",
+        "description": "Shredded chicken in a smooth sweet corn broth with a hint of ginger",
+        "price": 70,
+        "category": "Soup",
+        "group": "Snacks",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 32,
+        "name": "Veg Hot & Sour Soup",
+        "description": "Tangy and spicy vegetable soup with vinegar, soy sauce & chilli",
+        "price": 50,
+        "category": "Soup",
+        "group": "Snacks",
+        "veg": true,
+        "tag": "Spicy"
+    },
+    {
+        "id": 33,
+        "name": "Chicken Hot & Sour Soup",
+        "description": "Classic Indo-Chinese hot & sour broth with tender chicken shreds",
+        "price": 70,
+        "category": "Soup",
+        "group": "Snacks",
+        "veg": false,
+        "tag": "Spicy"
+    },
+    {
+        "id": 34,
+        "name": "Veg Manchow Soup",
+        "description": "Thick spiced broth with finely chopped vegetables, topped with crispy noodles",
+        "price": 50,
+        "category": "Soup",
+        "group": "Snacks",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 35,
+        "name": "Chicken Manchow Soup",
+        "description": "Hearty chicken Manchow broth topped with crispy fried noodles",
+        "price": 70,
+        "category": "Soup",
+        "group": "Snacks",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 36,
+        "name": "Veg Burnt Garlic Soup",
+        "description": "Aromatic clear soup infused with roasted garlic and fresh vegetables",
+        "price": 50,
+        "category": "Soup",
+        "group": "Snacks",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 37,
+        "name": "Chicken Burnt Garlic Soup",
+        "description": "Rich chicken broth with the deep smoky flavor of charred garlic",
+        "price": 70,
+        "category": "Soup",
+        "group": "Snacks",
+        "veg": false,
+        "tag": "Chef's Pick"
+    },
+    {
+        "id": 38,
+        "name": "Veg Soup",
+        "description": "Light and nourishing clear broth with seasonal mixed vegetables",
+        "price": 50,
+        "category": "Soup",
+        "group": "Snacks",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 39,
+        "name": "Mix Veg Soup",
+        "description": "A wholesome medley of garden vegetables in a flavorful clear stock",
+        "price": 70,
+        "category": "Soup",
+        "group": "Snacks",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 40,
+        "name": "Veg Chowmein",
+        "description": "Stir-fried noodles tossed with fresh vegetables and Indo-Chinese sauces",
+        "price": 70,
+        "category": "Chowmein",
+        "group": "Snacks",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 41,
+        "name": "Mix Veg Chowmein",
+        "description": "A loaded mix of seasonal vegetables stir-fried with hakka noodles",
+        "price": 100,
+        "category": "Chowmein",
+        "group": "Snacks",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 42,
+        "name": "Paneer Chowmein",
+        "description": "Noodles tossed with soft cottage cheese cubes in savory soy-chilli sauce",
+        "price": 90,
+        "category": "Chowmein",
+        "group": "Snacks",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 43,
+        "name": "Mushroom Chowmein",
+        "description": "Earthy mushrooms stir-fried with noodles in garlic and soy sauce",
+        "price": 90,
+        "category": "Chowmein",
+        "group": "Snacks",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 44,
+        "name": "Chicken Chowmein",
+        "description": "Tender chicken strips stir-fried with noodles and crisp vegetables",
+        "price": 90,
+        "category": "Chowmein",
+        "group": "Snacks",
+        "veg": false,
+        "tag": "Bestseller"
+    },
+    {
+        "id": 45,
+        "name": "Mix Non-Veg Chowmein",
+        "description": "A loaded non-veg chowmein with chicken, egg & special sauces",
+        "price": 120,
+        "category": "Chowmein",
+        "group": "Snacks",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 46,
+        "name": "Egg Chowmein",
+        "description": "Classic egg-tossed hakka noodles with vegetables in savory sauces",
+        "price": 80,
+        "category": "Chowmein",
+        "group": "Snacks",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 47,
+        "name": "Veg Chopsuey",
+        "description": "Crispy fried noodles topped with a thick vegetable gravy in sweet-sour sauce",
+        "price": 110,
+        "category": "Chowmein",
+        "group": "Snacks",
+        "veg": true,
+        "tag": "Chef's Pick"
+    },
+    {
+        "id": 48,
+        "name": "Chicken Chopsuey",
+        "description": "Crispy noodles with a rich chicken and vegetable gravy in Indo-Chinese style",
+        "price": 180,
+        "category": "Chowmein",
+        "group": "Snacks",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 49,
+        "name": "Mix Non-Veg Chopsuey",
+        "description": "Crispy hakka noodles topped with a mixed non-veg gravy and vibrant vegetables",
+        "price": 190,
+        "category": "Chowmein",
+        "group": "Snacks",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 50,
+        "name": "Veg Roll",
+        "description": "Soft paratha wrapped around spiced vegetable filling with chutneys",
+        "price": 50,
+        "category": "Rolls",
+        "group": "Snacks",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 51,
+        "name": "Mix Veg Roll",
+        "description": "Hearty mixed vegetable stuffing rolled in a crispy grilled paratha",
+        "price": 70,
+        "category": "Rolls",
+        "group": "Snacks",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 52,
+        "name": "Mix Veg Jumbo Roll",
+        "description": "A generously large roll packed with mixed vegetables and house sauces",
+        "price": 90,
+        "category": "Rolls",
+        "group": "Snacks",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 53,
+        "name": "Paneer Roll",
+        "description": "Spiced cottage cheese tikka wrapped in a warm paratha with mint chutney",
+        "price": 60,
+        "category": "Rolls",
+        "group": "Snacks",
+        "veg": true,
+        "tag": "Bestseller"
+    },
+    {
+        "id": 54,
+        "name": "Mushroom Roll",
+        "description": "Sautéed mushrooms and peppers wrapped in a soft paratha",
+        "price": 60,
+        "category": "Rolls",
+        "group": "Snacks",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 55,
+        "name": "Veg Spring Roll",
+        "description": "Crispy golden roll stuffed with seasoned vegetables and glass noodles",
+        "price": 90,
+        "category": "Rolls",
+        "group": "Snacks",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 56,
+        "name": "Mix Veg Spring Roll",
+        "description": "Extra loaded spring roll with a colorful medley of vegetables",
+        "price": 120,
+        "category": "Rolls",
+        "group": "Snacks",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 57,
+        "name": "Paneer Spring Roll",
+        "description": "Crispy fried roll filled with spiced paneer and vegetables",
+        "price": 100,
+        "category": "Rolls",
+        "group": "Snacks",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 58,
+        "name": "Mushroom Spring Roll",
+        "description": "Crunchy spring roll stuffed with mushrooms, cabbage and seasoning",
+        "price": 100,
+        "category": "Rolls",
+        "group": "Snacks",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 59,
+        "name": "Plain Chicken Roll",
+        "description": "Juicy grilled chicken wrapped in a soft paratha with onions and chutney",
+        "price": 55,
+        "category": "Rolls",
+        "group": "Snacks",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 60,
+        "name": "Egg Chicken Roll",
+        "description": "Shredded chicken with egg wrapped in a thin egg-coated paratha",
+        "price": 60,
+        "category": "Rolls",
+        "group": "Snacks",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 61,
+        "name": "Double Egg Chicken Roll",
+        "description": "Extra egg and chicken stuffed roll, rich and satisfying",
+        "price": 70,
+        "category": "Rolls",
+        "group": "Snacks",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 62,
+        "name": "Lachha Egg Chicken Roll",
+        "description": "Flaky lachha paratha wrapped around spiced chicken and egg filling",
+        "price": 80,
+        "category": "Rolls",
+        "group": "Snacks",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 63,
+        "name": "Lachha Double Egg Chicken Roll",
+        "description": "Multi-layered lachha paratha loaded with double egg and chicken",
+        "price": 90,
+        "category": "Rolls",
+        "group": "Snacks",
+        "veg": false,
+        "tag": "Must Try"
+    },
+    {
+        "id": 64,
+        "name": "Non-Veg Jumbo Roll",
+        "description": "XL-sized roll stuffed generously with mixed non-veg filling and sauces",
+        "price": 100,
+        "category": "Rolls",
+        "group": "Snacks",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 65,
+        "name": "Egg Roll",
+        "description": "Classic street-style egg roll in a soft paratha with onion & green chutney",
+        "price": 55,
+        "category": "Rolls",
+        "group": "Snacks",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 66,
+        "name": "Double Egg Roll",
+        "description": "Two eggs, double the goodness — a simple yet satisfying street roll",
+        "price": 60,
+        "category": "Rolls",
+        "group": "Snacks",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 67,
+        "name": "Mughlai Paratha",
+        "description": "Stuffed whole wheat paratha with spiced egg and minced filling, pan-fried",
+        "price": 120,
+        "category": "Rolls",
+        "group": "Snacks",
+        "veg": false,
+        "tag": "Chef's Pick"
+    },
+    {
+        "id": 68,
+        "name": "CRISPY VEG",
+        "description": "",
+        "price": 130,
+        "category": "Veg Starters",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 69,
+        "name": "SWEET CORN CHILLY",
+        "description": "",
+        "price": 130,
+        "category": "Veg Starters",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 70,
+        "name": "AMERICAN CORN",
+        "description": "",
+        "price": 130,
+        "category": "Veg Starters",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 71,
+        "name": "VEG CHILLY",
+        "description": "",
+        "price": 130,
+        "category": "Veg Starters",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 72,
+        "name": "VEG MANCHURIAN",
+        "description": "",
+        "price": 110,
+        "category": "Veg Starters",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 73,
+        "name": "VEG HOT GARLIC",
+        "description": "",
+        "price": 130,
+        "category": "Veg Starters",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 74,
+        "name": "PANEER CHILLY",
+        "description": "",
+        "price": 170,
+        "category": "Veg Starters",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 75,
+        "name": "PANEER 65",
+        "description": "",
+        "price": 170,
+        "category": "Veg Starters",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 76,
+        "name": "PANEER MANCHURIAN",
+        "description": "",
+        "price": 170,
+        "category": "Veg Starters",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 77,
+        "name": "PANEER CHATPATI",
+        "description": "",
+        "price": 180,
+        "category": "Veg Starters",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 78,
+        "name": "PANEER PEPPER STICK",
+        "description": "",
+        "price": 190,
+        "category": "Veg Starters",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 79,
+        "name": "PANEER HOT GARLIC",
+        "description": "",
+        "price": 170,
+        "category": "Veg Starters",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 80,
+        "name": "GARLIC PANEER",
+        "description": "",
+        "price": 170,
+        "category": "Veg Starters",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 81,
+        "name": "GINJAR PANEER",
+        "description": "",
+        "price": 170,
+        "category": "Veg Starters",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 82,
+        "name": "DRAGON PANEER",
+        "description": "",
+        "price": 180,
+        "category": "Veg Starters",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 83,
+        "name": "CHANA CHILLY",
+        "description": "",
+        "price": 130,
+        "category": "Veg Starters",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 84,
+        "name": "MUSHROOM CHILLY",
+        "description": "",
+        "price": 170,
+        "category": "Veg Starters",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 85,
+        "name": "MUSHROOM 65",
+        "description": "",
+        "price": 170,
+        "category": "Veg Starters",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 86,
+        "name": "MUSHROOM MANCHURIAN",
+        "description": "",
+        "price": 170,
+        "category": "Veg Starters",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 87,
+        "name": "MUSHROOM SALT & PEPPER",
+        "description": "",
+        "price": 180,
+        "category": "Veg Starters",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 88,
+        "name": "MUSHROOM PEPPER STICK",
+        "description": "",
+        "price": 190,
+        "category": "Veg Starters",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 89,
+        "name": "MUSHROOM HOT GARLIC",
+        "description": "",
+        "price": 170,
+        "category": "Veg Starters",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 90,
+        "name": "DRAGON MUSHROOM",
+        "description": "",
+        "price": 180,
+        "category": "Veg Starters",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 91,
+        "name": "GARLIC MUSHROOM",
+        "description": "",
+        "price": 170,
+        "category": "Veg Starters",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 92,
+        "name": "GINJAR MUSHROOM",
+        "description": "",
+        "price": 170,
+        "category": "Veg Starters",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 93,
+        "name": "GOBI CHILLY",
+        "description": "",
+        "price": 130,
+        "category": "Veg Starters",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 94,
+        "name": "GOBI 65",
+        "description": "",
+        "price": 130,
+        "category": "Veg Starters",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 95,
+        "name": "GOBI MANCHURIAN",
+        "description": "",
+        "price": 130,
+        "category": "Veg Starters",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 96,
+        "name": "Chicken Pepper Stick",
+        "description": "",
+        "price": 220,
+        "category": "Non Veg Starters",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 97,
+        "name": "Crispy Chicken",
+        "description": "",
+        "price": 220,
+        "category": "Non Veg Starters",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 98,
+        "name": "Dragon Chicken",
+        "description": "",
+        "price": 220,
+        "category": "Non Veg Starters",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 99,
+        "name": "Chicken Chilly B/BL",
+        "description": "Boneless: 220.00",
+        "price": 200,
+        "category": "Non Veg Starters",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 100,
+        "name": "Chicken 65 B/BL",
+        "description": "Boneless: 220.00",
+        "price": 200,
+        "category": "Non Veg Starters",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 101,
+        "name": "Chicken Manchurian B/BL",
+        "description": "Boneless: 220.00",
+        "price": 200,
+        "category": "Non Veg Starters",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 102,
+        "name": "Ginjar Chicken B/BL",
+        "description": "Boneless: 220.00",
+        "price": 200,
+        "category": "Non Veg Starters",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 103,
+        "name": "Garlic Chicken B/BL",
+        "description": "Boneless: 220.00",
+        "price": 200,
+        "category": "Non Veg Starters",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 104,
+        "name": "Lemon Chicken",
+        "description": "",
+        "price": 220,
+        "category": "Non Veg Starters",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 105,
+        "name": "Schezwan Chicken",
+        "description": "",
+        "price": 220,
+        "category": "Non Veg Starters",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 106,
+        "name": "Chicken 88",
+        "description": "",
+        "price": 220,
+        "category": "Non Veg Starters",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 107,
+        "name": "Chicken Majestic",
+        "description": "",
+        "price": 220,
+        "category": "Non Veg Starters",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 108,
+        "name": "Chicken 555",
+        "description": "",
+        "price": 220,
+        "category": "Non Veg Starters",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 109,
+        "name": "Chicken Hong Kong",
+        "description": "",
+        "price": 220,
+        "category": "Non Veg Starters",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 110,
+        "name": "Chicken Loly Pop",
+        "description": "",
+        "price": 160,
+        "category": "Non Veg Starters",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 111,
+        "name": "Prawn Chilly",
+        "description": "",
+        "price": 220,
+        "category": "Non Veg Starters",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 112,
+        "name": "Bali Prawn",
+        "description": "",
+        "price": 240,
+        "category": "Non Veg Starters",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 113,
+        "name": "Golden FD Prawn",
+        "description": "",
+        "price": 220,
+        "category": "Non Veg Starters",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 114,
+        "name": "Prawn 65",
+        "description": "",
+        "price": 220,
+        "category": "Non Veg Starters",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 115,
+        "name": "Prawn Manchurian",
+        "description": "",
+        "price": 220,
+        "category": "Non Veg Starters",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 116,
+        "name": "Fish Manchurian",
+        "description": "",
+        "price": 100,
+        "category": "Non Veg Starters",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 117,
+        "name": "Fish Chilly",
+        "description": "",
+        "price": 100,
+        "category": "Non Veg Starters",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 118,
+        "name": "Garlic Prawn",
+        "description": "",
+        "price": 220,
+        "category": "Non Veg Starters",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 119,
+        "name": "Ginjar Prawn",
+        "description": "",
+        "price": 220,
+        "category": "Non Veg Starters",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 120,
+        "name": "TANDOORI CHICKEN (FULL)",
+        "description": "",
+        "price": 430,
+        "category": "Kabab Non Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 121,
+        "name": "TANDOORI CHICKEN (HALF)",
+        "description": "",
+        "price": 260,
+        "category": "Kabab Non Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 122,
+        "name": "LEG PIC (1 PC)",
+        "description": "",
+        "price": 110,
+        "category": "Kabab Non Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 123,
+        "name": "TANDOORI KABAB",
+        "description": "",
+        "price": 170,
+        "category": "Kabab Non Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 124,
+        "name": "CHICKEN TIKKA",
+        "description": "",
+        "price": 180,
+        "category": "Kabab Non Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 125,
+        "name": "BANJARA KABAB",
+        "description": "",
+        "price": 170,
+        "category": "Kabab Non Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 126,
+        "name": "BANJARA TIKKA",
+        "description": "",
+        "price": 180,
+        "category": "Kabab Non Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 127,
+        "name": "MALAI KABAB",
+        "description": "",
+        "price": 170,
+        "category": "Kabab Non Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 128,
+        "name": "TANDOORI FISH",
+        "description": "",
+        "price": 250,
+        "category": "Kabab Non Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 129,
+        "name": "ONION SALAD",
+        "description": "",
+        "price": 50,
+        "category": "Salad/Papad",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 130,
+        "name": "GREEN SALAD",
+        "description": "",
+        "price": 60,
+        "category": "Salad/Papad",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 131,
+        "name": "KACHUMBAR SALAD",
+        "description": "",
+        "price": 50,
+        "category": "Salad/Papad",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 132,
+        "name": "MIX VEG RAITA",
+        "description": "",
+        "price": 60,
+        "category": "Salad/Papad",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 133,
+        "name": "BOONDI RAITA",
+        "description": "",
+        "price": 60,
+        "category": "Salad/Papad",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 134,
+        "name": "MASALA PAPAD",
+        "description": "",
+        "price": 40,
+        "category": "Salad/Papad",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 135,
+        "name": "FRY PAPAD",
+        "description": "",
+        "price": 20,
+        "category": "Salad/Papad",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 136,
+        "name": "ROASTED MASALA PAPAD",
+        "description": "",
+        "price": 40,
+        "category": "Salad/Papad",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 137,
+        "name": "ROASTED PAPAD",
+        "description": "",
+        "price": 20,
+        "category": "Salad/Papad",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 138,
+        "name": "STEAM RICE",
+        "description": "",
+        "price": 50,
+        "category": "Indian Rice",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 139,
+        "name": "LEMON RICE",
+        "description": "",
+        "price": 110,
+        "category": "Indian Rice",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 140,
+        "name": "ZEERA RICE",
+        "description": "",
+        "price": 110,
+        "category": "Indian Rice",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 141,
+        "name": "CURD RICE",
+        "description": "",
+        "price": 110,
+        "category": "Indian Rice",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 142,
+        "name": "VEG BIRYANI",
+        "description": "",
+        "price": 160,
+        "category": "Indian Rice",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 143,
+        "name": "MIX VEG BIRYANI",
+        "description": "",
+        "price": 170,
+        "category": "Indian Rice",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 144,
+        "name": "VEG PULAO",
+        "description": "",
+        "price": 160,
+        "category": "Indian Rice",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 145,
+        "name": "MATI HANDI VEG BIRIYANI",
+        "description": "",
+        "price": 180,
+        "category": "Indian Rice",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 146,
+        "name": "PANEER BIRYANI",
+        "description": "",
+        "price": 170,
+        "category": "Indian Rice",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 147,
+        "name": "PANEER PULAO",
+        "description": "",
+        "price": 170,
+        "category": "Indian Rice",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 148,
+        "name": "MUSHROOM BIRIYANI",
+        "description": "",
+        "price": 170,
+        "category": "Indian Rice",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 149,
+        "name": "MUSHROOM PULAO",
+        "description": "",
+        "price": 170,
+        "category": "Indian Rice",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 150,
+        "name": "CHICKEN DUM BIRIYANI",
+        "description": "Full: 190.00",
+        "price": 120,
+        "category": "Indian Rice",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 151,
+        "name": "KEBAB BIRIYANI",
+        "description": "",
+        "price": 280,
+        "category": "Indian Rice",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 152,
+        "name": "LEG PIC BIRIYANI",
+        "description": "",
+        "price": 280,
+        "category": "Indian Rice",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 153,
+        "name": "CHICKEN TIKKA BIRIYANI",
+        "description": "",
+        "price": 280,
+        "category": "Indian Rice",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 154,
+        "name": "CHICKEN LOLY POP BIRIYANI",
+        "description": "",
+        "price": 280,
+        "category": "Indian Rice",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 155,
+        "name": "CHICKEN MUGHULAI BIRIYANI",
+        "description": "",
+        "price": 200,
+        "category": "Indian Rice",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 156,
+        "name": "MATI HANDI CHICKEN BIRIYANI",
+        "description": "",
+        "price": 200,
+        "category": "Indian Rice",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 157,
+        "name": "EGG BIRIYANI",
+        "description": "",
+        "price": 150,
+        "category": "Indian Rice",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 158,
+        "name": "FRY PIES BIRIYANI",
+        "description": "Full: 190.00",
+        "price": 120,
+        "category": "Indian Rice",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 159,
+        "name": "PRAWN BIRIYANI",
+        "description": "",
+        "price": 280,
+        "category": "Indian Rice",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 160,
+        "name": "MUTTON BIRIYANI",
+        "description": "",
+        "price": 280,
+        "category": "Indian Rice",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 161,
+        "name": "MATI HANDI MUTTON BIRIYANI",
+        "description": "",
+        "price": 290,
+        "category": "Indian Rice",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 162,
+        "name": "TANDOORI ROTI",
+        "description": "",
+        "price": 10,
+        "category": "Naan Roti",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 163,
+        "name": "BUTTER TANDOORI ROTI",
+        "description": "",
+        "price": 15,
+        "category": "Naan Roti",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 164,
+        "name": "TAWA ROTI",
+        "description": "",
+        "price": 10,
+        "category": "Naan Roti",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 165,
+        "name": "BUTTER TAWA ROTI",
+        "description": "",
+        "price": 10,
+        "category": "Naan Roti",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 166,
+        "name": "PLAIN NAAN",
+        "description": "",
+        "price": 20,
+        "category": "Naan Roti",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 167,
+        "name": "BUTTER NAAN",
+        "description": "",
+        "price": 25,
+        "category": "Naan Roti",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 168,
+        "name": "GARLIC NAAN",
+        "description": "",
+        "price": 35,
+        "category": "Naan Roti",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 169,
+        "name": "MASALA KULCHA",
+        "description": "",
+        "price": 40,
+        "category": "Naan Roti",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 170,
+        "name": "ALOO PARATHA",
+        "description": "",
+        "price": 40,
+        "category": "Naan Roti",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 171,
+        "name": "PUDINA PARATHA",
+        "description": "",
+        "price": 35,
+        "category": "Naan Roti",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 172,
+        "name": "LACHHA PARATHA",
+        "description": "",
+        "price": 30,
+        "category": "Naan Roti",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 173,
+        "name": "Paneer Butter Masala",
+        "description": "",
+        "price": 170,
+        "category": "Main Course: Paneer Special",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 174,
+        "name": "Paneer Masala",
+        "description": "",
+        "price": 160,
+        "category": "Main Course: Paneer Special",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 175,
+        "name": "Paneer Tikka Masala",
+        "description": "",
+        "price": 220,
+        "category": "Main Course: Paneer Special",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 176,
+        "name": "Paneer Keema Masala",
+        "description": "",
+        "price": 180,
+        "category": "Main Course: Paneer Special",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 177,
+        "name": "Paneer Korma Masala",
+        "description": "",
+        "price": 180,
+        "category": "Main Course: Paneer Special",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 178,
+        "name": "Paneer Hydrabadi",
+        "description": "",
+        "price": 170,
+        "category": "Main Course: Paneer Special",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 179,
+        "name": "Kadai Paneer",
+        "description": "",
+        "price": 170,
+        "category": "Main Course: Paneer Special",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 180,
+        "name": "Paneer Punjabi",
+        "description": "",
+        "price": 170,
+        "category": "Main Course: Paneer Special",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 181,
+        "name": "Paneer Bharta",
+        "description": "",
+        "price": 180,
+        "category": "Main Course: Paneer Special",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 182,
+        "name": "Paneer Pasanda",
+        "description": "",
+        "price": 180,
+        "category": "Main Course: Paneer Special",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 183,
+        "name": "Paneer Bhurjee",
+        "description": "",
+        "price": 180,
+        "category": "Main Course: Paneer Special",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 184,
+        "name": "Paneer Kollahpuri",
+        "description": "",
+        "price": 180,
+        "category": "Main Course: Paneer Special",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 185,
+        "name": "Sahi Paneer",
+        "description": "",
+        "price": 180,
+        "category": "Main Course: Paneer Special",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 186,
+        "name": "Paneer Lababdar",
+        "description": "",
+        "price": 180,
+        "category": "Main Course: Paneer Special",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 187,
+        "name": "Palak Paneer",
+        "description": "",
+        "price": 180,
+        "category": "Main Course: Paneer Special",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 188,
+        "name": "Paneer Jhal Fry",
+        "description": "",
+        "price": 180,
+        "category": "Main Course: Paneer Special",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 189,
+        "name": "Paneer Dewani",
+        "description": "",
+        "price": 180,
+        "category": "Main Course: Paneer Special",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 190,
+        "name": "Cashew Paneer",
+        "description": "",
+        "price": 220,
+        "category": "Main Course: Paneer Special",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 191,
+        "name": "Paneer Dopyaza",
+        "description": "",
+        "price": 170,
+        "category": "Main Course: Paneer Special",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 192,
+        "name": "Mati Handi Paneer",
+        "description": "",
+        "price": 180,
+        "category": "Main Course: Paneer Special",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 193,
+        "name": "Mushroom Butter Masala",
+        "description": "",
+        "price": 170,
+        "category": "Main Course: Mushroom & Cashew",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 194,
+        "name": "Mushroom Masala",
+        "description": "",
+        "price": 160,
+        "category": "Main Course: Mushroom & Cashew",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 195,
+        "name": "Mushroom Tikka Masala",
+        "description": "",
+        "price": 220,
+        "category": "Main Course: Mushroom & Cashew",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 196,
+        "name": "Mushroom Hydrabadi",
+        "description": "",
+        "price": 170,
+        "category": "Main Course: Mushroom & Cashew",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 197,
+        "name": "Kadai Mushroom",
+        "description": "",
+        "price": 170,
+        "category": "Main Course: Mushroom & Cashew",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 198,
+        "name": "Mushroom Jhalfry",
+        "description": "",
+        "price": 180,
+        "category": "Main Course: Mushroom & Cashew",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 199,
+        "name": "Mushroom Dewani",
+        "description": "",
+        "price": 180,
+        "category": "Main Course: Mushroom & Cashew",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 200,
+        "name": "Mushroom Punjabi",
+        "description": "",
+        "price": 170,
+        "category": "Main Course: Mushroom & Cashew",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 201,
+        "name": "Mushroom Dopyaza",
+        "description": "",
+        "price": 170,
+        "category": "Main Course: Mushroom & Cashew",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 202,
+        "name": "Cashew Mushroom",
+        "description": "",
+        "price": 220,
+        "category": "Main Course: Mushroom & Cashew",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 203,
+        "name": "Methi Mushroom",
+        "description": "",
+        "price": 180,
+        "category": "Main Course: Mushroom & Cashew",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 204,
+        "name": "Mati Handi Mushroom",
+        "description": "",
+        "price": 180,
+        "category": "Main Course: Mushroom & Cashew",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 205,
+        "name": "Mushroom Kollah Puri",
+        "description": "",
+        "price": 180,
+        "category": "Main Course: Mushroom & Cashew",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 206,
+        "name": "Cashew Masala",
+        "description": "",
+        "price": 250,
+        "category": "Main Course: Mushroom & Cashew",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 207,
+        "name": "Mix Veg",
+        "description": "",
+        "price": 160,
+        "category": "Main Course: Vegetable Delights",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 208,
+        "name": "Kadai Vegetable",
+        "description": "",
+        "price": 130,
+        "category": "Main Course: Vegetable Delights",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 209,
+        "name": "Veg Malai Kofta",
+        "description": "",
+        "price": 150,
+        "category": "Main Course: Vegetable Delights",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 210,
+        "name": "Veg Jhal Fry",
+        "description": "",
+        "price": 130,
+        "category": "Main Course: Vegetable Delights",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 211,
+        "name": "Stuffed Capsicum",
+        "description": "",
+        "price": 130,
+        "category": "Main Course: Vegetable Delights",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 212,
+        "name": "Stuffed Aloo",
+        "description": "",
+        "price": 130,
+        "category": "Main Course: Vegetable Delights",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 213,
+        "name": "Stuffed Tomato",
+        "description": "",
+        "price": 130,
+        "category": "Main Course: Vegetable Delights",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 214,
+        "name": "Aloo Dum",
+        "description": "",
+        "price": 80,
+        "category": "Main Course: Vegetable Delights",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 215,
+        "name": "Veg Keema",
+        "description": "",
+        "price": 130,
+        "category": "Main Course: Vegetable Delights",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 216,
+        "name": "Special Veg",
+        "description": "",
+        "price": 130,
+        "category": "Main Course: Vegetable Delights",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 217,
+        "name": "Mati Handi Veg",
+        "description": "",
+        "price": 130,
+        "category": "Main Course: Vegetable Delights",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 218,
+        "name": "Veg Sahi Korma",
+        "description": "",
+        "price": 130,
+        "category": "Main Course: Vegetable Delights",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 219,
+        "name": "Veg Hydrabadi",
+        "description": "",
+        "price": 130,
+        "category": "Main Course: Vegetable Delights",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 220,
+        "name": "Chana Masala",
+        "description": "",
+        "price": 70,
+        "category": "Main Course: Vegetable Delights",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 221,
+        "name": "Gobi Masala",
+        "description": "",
+        "price": 90,
+        "category": "Main Course: Vegetable Delights",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 222,
+        "name": "Sweet Corn Masala",
+        "description": "",
+        "price": 130,
+        "category": "Main Course: Vegetable Delights",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 223,
+        "name": "Green Peas Masala",
+        "description": "",
+        "price": 130,
+        "category": "Main Course: Vegetable Delights",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 224,
+        "name": "Veg Jaypuri",
+        "description": "",
+        "price": 130,
+        "category": "Main Course: Vegetable Delights",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 225,
+        "name": "Veg Kollahpuri",
+        "description": "",
+        "price": 130,
+        "category": "Main Course: Vegetable Delights",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 226,
+        "name": "Methi Chaman",
+        "description": "",
+        "price": 180,
+        "category": "Main Course: Vegetable Delights",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 227,
+        "name": "Veg Dopyaza",
+        "description": "",
+        "price": 130,
+        "category": "Main Course: Vegetable Delights",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 228,
+        "name": "Aloo Zeera",
+        "description": "",
+        "price": 80,
+        "category": "Main Course: Vegetable Delights",
+        "group": "Menu",
+        "veg": true,
+        "tag": ""
+    },
+    {
+        "id": 229,
+        "name": "GREEN CHILLY SPECIAL CHICKEN B/BL",
+        "description": "Boneless: 220.00",
+        "price": 190,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 230,
+        "name": "CHICKEN CHATNADU",
+        "description": "",
+        "price": 190,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 231,
+        "name": "CHICKEN PUNJABI",
+        "description": "",
+        "price": 190,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 232,
+        "name": "LEG PEAS MASALA",
+        "description": "",
+        "price": 180,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 233,
+        "name": "CHICKEN BHARTA",
+        "description": "",
+        "price": 220,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 234,
+        "name": "CHICKEN KEEMA MASALA",
+        "description": "",
+        "price": 220,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 235,
+        "name": "CHICKEN SAHI KORMA MASALA",
+        "description": "",
+        "price": 220,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 236,
+        "name": "CHICKEN SUKHA",
+        "description": "",
+        "price": 220,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 237,
+        "name": "CHICKEN MUMTAJ",
+        "description": "",
+        "price": 190,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 238,
+        "name": "METHI CHICKEN B/BL",
+        "description": "Boneless: 220.00",
+        "price": 190,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 239,
+        "name": "CHICKEN BANJARA GRAVY",
+        "description": "",
+        "price": 220,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 240,
+        "name": "KABAB MASALA",
+        "description": "",
+        "price": 220,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 241,
+        "name": "KADAI CHICKEN",
+        "description": "",
+        "price": 190,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 242,
+        "name": "CHICKEN ADRAKI B/BL",
+        "description": "Boneless: 220.00",
+        "price": 190,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 243,
+        "name": "CHICKEN MUSELUM (FULL)",
+        "description": "",
+        "price": 520,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 244,
+        "name": "CHICKEN LATPAT",
+        "description": "",
+        "price": 190,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 245,
+        "name": "CHICKEN MUGHULAI",
+        "description": "",
+        "price": 190,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 246,
+        "name": "CHICKEN MASALA",
+        "description": "",
+        "price": 170,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 247,
+        "name": "CHICKEN DOPYAZA",
+        "description": "",
+        "price": 190,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 248,
+        "name": "CHICKEN HYDRABADI",
+        "description": "",
+        "price": 190,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 249,
+        "name": "CHICKEN KORMA MASALA",
+        "description": "",
+        "price": 190,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 250,
+        "name": "MURGH CHAND",
+        "description": "",
+        "price": 210,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 251,
+        "name": "CHICKEN AFGANI",
+        "description": "",
+        "price": 200,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 252,
+        "name": "CHICKEN DILKHUS",
+        "description": "",
+        "price": 210,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 253,
+        "name": "MATI HANDI CHICKEN B/BL",
+        "description": "Boneless: 220.00",
+        "price": 190,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 254,
+        "name": "MURG MULTANI",
+        "description": "",
+        "price": 220,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 255,
+        "name": "MURG PESSAWARI",
+        "description": "",
+        "price": 210,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 256,
+        "name": "CHICKEN MALWALI B/BL",
+        "description": "Boneless: 220.00",
+        "price": 190,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 257,
+        "name": "CHICKEN BUTTER MASALA",
+        "description": "",
+        "price": 190,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 258,
+        "name": "CHICKEN PAKODA MASALA",
+        "description": "",
+        "price": 200,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 259,
+        "name": "CHICKEN MAHARAJA",
+        "description": "",
+        "price": 220,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 260,
+        "name": "CHICKEN LOLY POP MASALA",
+        "description": "",
+        "price": 200,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 261,
+        "name": "CHICKEN LABABDAR",
+        "description": "",
+        "price": 200,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 262,
+        "name": "PRAWN MALAI CURRY",
+        "description": "",
+        "price": 220,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 263,
+        "name": "PRAWN MASALA",
+        "description": "",
+        "price": 220,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 264,
+        "name": "KADAL PRAWN",
+        "description": "",
+        "price": 220,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 265,
+        "name": "PRAWN DOPYAZA",
+        "description": "",
+        "price": 220,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 266,
+        "name": "FISH FRY",
+        "description": "",
+        "price": 70,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 267,
+        "name": "FISH BENGALI CURRY",
+        "description": "",
+        "price": 100,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 268,
+        "name": "FISH MASALA",
+        "description": "",
+        "price": 80,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 269,
+        "name": "FISH DOPYAZA",
+        "description": "",
+        "price": 90,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 270,
+        "name": "EGG MASALA",
+        "description": "",
+        "price": 60,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 271,
+        "name": "EGG DOPYAZA",
+        "description": "",
+        "price": 70,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 272,
+        "name": "EGG BHURJEE",
+        "description": "",
+        "price": 50,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 273,
+        "name": "EGG BHURJEE MASALA",
+        "description": "",
+        "price": 70,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 2731,
+        "name": "EGG OMELET",
+        "description": "",
+        "price": 40,
+        "category": "Main Course: Indian Non-Veg",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 274,
+        "name": "MUTTON ROGAN JOSH",
+        "description": "",
+        "price": 220,
+        "category": "Mutton",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 275,
+        "name": "MUTTON KASSA",
+        "description": "",
+        "price": 220,
+        "category": "Mutton",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 276,
+        "name": "KADAI MUTTON",
+        "description": "",
+        "price": 220,
+        "category": "Mutton",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 277,
+        "name": "MUTTON MASALA",
+        "description": "",
+        "price": 220,
+        "category": "Mutton",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 278,
+        "name": "MUTTON DOPYAZA",
+        "description": "",
+        "price": 220,
+        "category": "Mutton",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 279,
+        "name": "MATI HANDI MUTTON",
+        "description": "",
+        "price": 230,
+        "category": "Mutton",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 280,
+        "name": "BHUNA MUTTON",
+        "description": "",
+        "price": 240,
+        "category": "Mutton",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    },
+    {
+        "id": 281,
+        "name": "KEEMA MUTTON",
+        "description": "",
+        "price": 270,
+        "category": "Mutton",
+        "group": "Menu",
+        "veg": false,
+        "tag": ""
+    }
+]

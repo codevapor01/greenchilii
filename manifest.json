@@ -1,0 +1,21 @@
+{
+    "name": "Green Chilli",
+    "short_name": "Green Chilli",
+    "description": "Authentic Indian Restaurant Menu in Gunupur",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#1a3c28",
+    "theme_color": "#1a3c28",
+    "icons": [
+        {
+            "src": "logo.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "logo.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
