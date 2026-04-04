@@ -497,7 +497,7 @@
   // ---- Fetch & init ----
   async function init() {
     try {
-      const res = await fetch('./menuData.json');
+      const res = await fetch('./menuData.json?v=' + Date.now());
       const raw = await res.text();
       // Strip JS-style comments from JSON (// ...) so we can parse it
       const clean = raw.replace(/\/\/.*$/gm, '');
