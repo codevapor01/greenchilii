@@ -1,6 +1,5 @@
-<<<<<<< HEAD
-/* ===========================================
-   Green Chilli — Menu App
+﻿====================================
+   Green Chilli â€” Menu App
    =========================================== */
 
 (() => {
@@ -14,7 +13,7 @@
     'Snacks': ['Soup', 'Chowmein', 'Rolls'],
   };
 
-  // ---- Utility: tag → CSS class ----
+  // ---- Utility: tag â†’ CSS class ----
   const tagClass = (tag) => ({
     'Bestseller': 'tag-bestseller',
     'Spicy': 'tag-spicy',
@@ -55,7 +54,7 @@
     if (snacksFirstBtn) {
       const sep = document.createElement('span');
       sep.className = 'nav-separator';
-      sep.textContent = '·';
+      sep.textContent = 'Â·';
       nav.insertBefore(sep, snacksFirstBtn);
     }
 
@@ -91,7 +90,7 @@
         </div>
         <p class="card-desc">${item.description}</p>
         <div class="card-footer">
-          <div class="card-price"><span>₹</span>${item.price.toFixed(2)}</div>
+          <div class="card-price"><span>â‚¹</span>${item.price.toFixed(2)}</div>
           ${tagHtml}
         </div>
       </div>
@@ -100,30 +99,30 @@
 
   // ---- Emoji map for categories ----
   const catEmoji = {
-    'Starter Indian': '🧆',
-    'Veg Starters': '🥦',
-    'Non Veg Starters': '🍗',
-    'Kabab Veg': '🍢',
-    'Kabab Non Veg': '🍢',
-    'Salad/Papad': '🥗',
-    'Main Course: Paneer Special': '🧀',
-    'Main Course: Mushroom & Cashew': '🍄',
-    'Main Course: Vegetable Delights': '🥦',
-    'Main Course: Indian Non-Veg': '🍗',
-    'Mutton': '🥩',
-    'Chinese Rice': '🍚',
-    'Indian Rice': '🍛',
-    'Naan Roti': '🫓',
-    'Drinks': '🥤',
-    'Soup': '🍲',
-    'Chowmein': '🍜',
-    'Rolls': '🌯',
+    'Starter Indian': 'ðŸ§†',
+    'Veg Starters': 'ðŸ¥¦',
+    'Non Veg Starters': 'ðŸ—',
+    'Kabab Veg': 'ðŸ¢',
+    'Kabab Non Veg': 'ðŸ¢',
+    'Salad/Papad': 'ðŸ¥—',
+    'Main Course: Paneer Special': 'ðŸ§€',
+    'Main Course: Mushroom & Cashew': 'ðŸ„',
+    'Main Course: Vegetable Delights': 'ðŸ¥¦',
+    'Main Course: Indian Non-Veg': 'ðŸ—',
+    'Mutton': 'ðŸ¥©',
+    'Chinese Rice': 'ðŸš',
+    'Indian Rice': 'ðŸ›',
+    'Naan Roti': 'ðŸ«“',
+    'Drinks': 'ðŸ¥¤',
+    'Soup': 'ðŸ²',
+    'Chowmein': 'ðŸœ',
+    'Rolls': 'ðŸŒ¯',
   };
 
   // ---- Render a category section ----
   function renderSection(category, items, isSnacksSection) {
     const sectionId = `section-${category.replace(/[\s&]/g, '-')}`;
-    const emoji = catEmoji[category] || '🍽️';
+    const emoji = catEmoji[category] || 'ðŸ½ï¸';
     const cardsHtml = items.map((item, i) => renderCard(item, i * 55)).join('');
     const extraClass = isSnacksSection ? 'snacks-subsection' : '';
 
@@ -154,7 +153,7 @@
       <div class="group-header">
         <div class="group-header-line"></div>
         <div class="group-title">
-          <span class="group-icon">🍟</span>
+          <span class="group-icon">ðŸŸ</span>
           <h2 class="group-name">Snacks</h2>
         </div>
         <div class="group-header-line"></div>
@@ -231,7 +230,7 @@
     } catch (err) {
       document.getElementById('menuContainer').innerHTML =
         `<p style="text-align:center;color:#ef4444;padding:40px;">
-         ⚠️ Could not load menu data. Ensure menuData.json is in the same folder.
+         âš ï¸ Could not load menu data. Ensure menuData.json is in the same folder.
        </p>`;
       console.error('Failed to load menuData.json:', err);
     }
@@ -276,7 +275,7 @@
 })();
 =======
 /* ===========================================
-   Green Chilli — Menu App
+   Green Chilli â€” Menu App
    =========================================== */
 
 (() => {
@@ -290,7 +289,7 @@
     'Snacks': ['Soup', 'Chowmein', 'Rolls'],
   };
 
-  // ---- Utility: tag → CSS class ----
+  // ---- Utility: tag â†’ CSS class ----
   const tagClass = (tag) => ({
     'Bestseller': 'tag-bestseller',
     'Spicy': 'tag-spicy',
@@ -331,7 +330,7 @@
     if (snacksFirstBtn) {
       const sep = document.createElement('span');
       sep.className = 'nav-separator';
-      sep.textContent = '·';
+      sep.textContent = 'Â·';
       nav.insertBefore(sep, snacksFirstBtn);
     }
 
@@ -367,7 +366,7 @@
         </div>
         <p class="card-desc">${item.description}</p>
         <div class="card-footer">
-          <div class="card-price"><span>₹</span>${item.price.toFixed(2)}</div>
+          <div class="card-price"><span>â‚¹</span>${item.price.toFixed(2)}</div>
           ${tagHtml}
         </div>
       </div>
@@ -376,30 +375,30 @@
 
   // ---- Emoji map for categories ----
   const catEmoji = {
-    'Starter Indian': '🧆',
-    'Veg Starters': '🥦',
-    'Non Veg Starters': '🍗',
-    'Kabab Veg': '🍢',
-    'Kabab Non Veg': '🍢',
-    'Salad/Papad': '🥗',
-    'Main Course: Paneer Special': '🧀',
-    'Main Course: Mushroom & Cashew': '🍄',
-    'Main Course: Vegetable Delights': '🥦',
-    'Main Course: Indian Non-Veg': '🍗',
-    'Mutton': '🥩',
-    'Chinese Rice': '🍚',
-    'Indian Rice': '🍛',
-    'Naan Roti': '🫓',
-    'Drinks': '🥤',
-    'Soup': '🍲',
-    'Chowmein': '🍜',
-    'Rolls': '🌯',
+    'Starter Indian': 'ðŸ§†',
+    'Veg Starters': 'ðŸ¥¦',
+    'Non Veg Starters': 'ðŸ—',
+    'Kabab Veg': 'ðŸ¢',
+    'Kabab Non Veg': 'ðŸ¢',
+    'Salad/Papad': 'ðŸ¥—',
+    'Main Course: Paneer Special': 'ðŸ§€',
+    'Main Course: Mushroom & Cashew': 'ðŸ„',
+    'Main Course: Vegetable Delights': 'ðŸ¥¦',
+    'Main Course: Indian Non-Veg': 'ðŸ—',
+    'Mutton': 'ðŸ¥©',
+    'Chinese Rice': 'ðŸš',
+    'Indian Rice': 'ðŸ›',
+    'Naan Roti': 'ðŸ«“',
+    'Drinks': 'ðŸ¥¤',
+    'Soup': 'ðŸ²',
+    'Chowmein': 'ðŸœ',
+    'Rolls': 'ðŸŒ¯',
   };
 
   // ---- Render a category section ----
   function renderSection(category, items, isSnacksSection) {
     const sectionId = `section-${category.replace(/[\s&]/g, '-')}`;
-    const emoji = catEmoji[category] || '🍽️';
+    const emoji = catEmoji[category] || 'ðŸ½ï¸';
     const cardsHtml = items.map((item, i) => renderCard(item, i * 55)).join('');
     const extraClass = isSnacksSection ? 'snacks-subsection' : '';
 
@@ -430,7 +429,7 @@
       <div class="group-header">
         <div class="group-header-line"></div>
         <div class="group-title">
-          <span class="group-icon">🍟</span>
+          <span class="group-icon">ðŸŸ</span>
           <h2 class="group-name">Snacks</h2>
         </div>
         <div class="group-header-line"></div>
@@ -507,7 +506,7 @@
     } catch (err) {
       document.getElementById('menuContainer').innerHTML =
         `<p style="text-align:center;color:#ef4444;padding:40px;">
-         ⚠️ Could not load menu data. Ensure menuData.json is in the same folder.
+         âš ï¸ Could not load menu data. Ensure menuData.json is in the same folder.
        </p>`;
       console.error('Failed to load menuData.json:', err);
     }
@@ -550,4 +549,3 @@
   init();
 
 })();
->>>>>>> 6aee20a (first commit)
