@@ -1,4 +1,3 @@
-﻿
 /* ===== Google Fonts ===== */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500;600&display=swap');
 
@@ -1237,3 +1236,4 @@ img {
 
 .photo-item:hover::after {
     opacity: 1;
+}

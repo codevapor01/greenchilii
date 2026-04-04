@@ -1,5 +1,5 @@
 /* ===========================================
-   Green Chilli - Menu App
+   Green Chilli — Menu App
    =========================================== */
 
 (() => {
@@ -13,7 +13,7 @@
     'Snacks': ['Soup', 'Chowmein', 'Rolls'],
   };
 
-  // ---- Utility: tag to CSS class ----
+  // ---- Utility: tag → CSS class ----
   const tagClass = (tag) => ({
     'Bestseller': 'tag-bestseller',
     'Spicy': 'tag-spicy',
@@ -27,6 +27,7 @@
   function buildCategoryNav(data) {
     const nav = document.getElementById('categoryNav');
 
+    // Gather all unique categories in order
     const allCategories = [
       ...CATEGORY_ORDER['Menu'],
       ...CATEGORY_ORDER['Snacks'],
@@ -36,9 +37,16 @@
       activeCategory = allCategories[0] || '';
     }
 
-    nav.innerHTML = allCategories.map(cat => {
+    const buttons = allCategories;
+
+    nav.innerHTML = buttons.map(cat => {
       const isSnacksCat = CATEGORY_ORDER['Snacks'].includes(cat);
-      return `<button class="cat-btn ${cat === activeCategory ? 'active' : ''} ${isSnacksCat ? 'snacks-cat' : ''}" data-cat="${cat}" aria-label="Filter by ${cat}">${cat}</button>`;
+      return `
+      <button class="cat-btn ${cat === activeCategory ? 'active' : ''} ${isSnacksCat ? 'snacks-cat' : ''}"
+              data-cat="${cat}"
+              aria-label="Filter by ${cat}">
+        ${cat}
+      </button>`;
     }).join('');
 
     // Add "Snacks" group label separator in nav
@@ -46,7 +54,7 @@
     if (snacksFirstBtn) {
       const sep = document.createElement('span');
       sep.className = 'nav-separator';
-      sep.textContent = '\u00B7';
+      sep.textContent = '·';
       nav.insertBefore(sep, snacksFirstBtn);
     }
 
@@ -82,7 +90,7 @@
         </div>
         <p class="card-desc">${item.description}</p>
         <div class="card-footer">
-          <div class="card-price"><span>\u20B9</span>${item.price.toFixed(2)}</div>
+          <div class="card-price"><span>₹</span>${item.price.toFixed(2)}</div>
           ${tagHtml}
         </div>
       </div>
@@ -91,30 +99,30 @@
 
   // ---- Emoji map for categories ----
   const catEmoji = {
-    'Starter Indian': '\u{1F9C6}',
-    'Veg Starters': '\u{1F966}',
-    'Non Veg Starters': '\u{1F357}',
-    'Kabab Veg': '\u{1F362}',
-    'Kabab Non Veg': '\u{1F362}',
-    'Salad/Papad': '\u{1F957}',
-    'Main Course: Paneer Special': '\u{1F9C0}',
-    'Main Course: Mushroom & Cashew': '\u{1F344}',
-    'Main Course: Vegetable Delights': '\u{1F966}',
-    'Main Course: Indian Non-Veg': '\u{1F357}',
-    'Mutton': '\u{1F969}',
-    'Chinese Rice': '\u{1F35A}',
-    'Indian Rice': '\u{1F35B}',
-    'Naan Roti': '\u{1FAD3}',
-    'Drinks': '\u{1F964}',
-    'Soup': '\u{1F372}',
-    'Chowmein': '\u{1F35C}',
-    'Rolls': '\u{1F32F}',
+    'Starter Indian': '🧆',
+    'Veg Starters': '🥦',
+    'Non Veg Starters': '🍗',
+    'Kabab Veg': '🍢',
+    'Kabab Non Veg': '🍢',
+    'Salad/Papad': '🥗',
+    'Main Course: Paneer Special': '🧀',
+    'Main Course: Mushroom & Cashew': '🍄',
+    'Main Course: Vegetable Delights': '🥦',
+    'Main Course: Indian Non-Veg': '🍗',
+    'Mutton': '🥩',
+    'Chinese Rice': '🍚',
+    'Indian Rice': '🍛',
+    'Naan Roti': '🫓',
+    'Drinks': '🥤',
+    'Soup': '🍲',
+    'Chowmein': '🍜',
+    'Rolls': '🌯',
   };
 
   // ---- Render a category section ----
   function renderSection(category, items, isSnacksSection) {
     const sectionId = `section-${category.replace(/[\s&]/g, '-')}`;
-    const emoji = catEmoji[category] || '\u{1F37D}\u{FE0F}';
+    const emoji = catEmoji[category] || '🍽️';
     const cardsHtml = items.map((item, i) => renderCard(item, i * 55)).join('');
     const extraClass = isSnacksSection ? 'snacks-subsection' : '';
 
@@ -145,7 +153,7 @@
       <div class="group-header">
         <div class="group-header-line"></div>
         <div class="group-title">
-          <span class="group-icon">\u{1F35F}</span>
+          <span class="group-icon">🍟</span>
           <h2 class="group-name">Snacks</h2>
         </div>
         <div class="group-header-line"></div>
@@ -159,11 +167,14 @@
     const container = document.getElementById('menuContainer');
     const emptyState = document.getElementById('emptyState');
 
+    // Filter
     const lowerQuery = searchQuery.toLowerCase();
     let filtered = menuData.filter(item => {
       const nameMatch = item.name ? item.name.toLowerCase().includes(lowerQuery) : false;
       const descMatch = item.description ? item.description.toLowerCase().includes(lowerQuery) : false;
       const matchSearch = nameMatch || descMatch;
+
+      // If there is a search query, show from all categories, else filter by active category
       const matchCat = searchQuery ? true : (activeCategory === 'All' ? true : item.category === activeCategory);
       return matchSearch && matchCat;
     });
@@ -176,17 +187,20 @@
 
     emptyState.style.display = 'none';
 
+    // Group by category
     const grouped = filtered.reduce((acc, item) => {
       acc[item.category] = acc[item.category] || [];
       acc[item.category].push(item);
       return acc;
     }, {});
 
+    // Check if we're showing snacks only or all
     const showingSnacksOnly = !searchQuery && CATEGORY_ORDER['Snacks'].includes(activeCategory);
     const showingMenuOnly = !searchQuery && CATEGORY_ORDER['Menu'].includes(activeCategory);
 
     let html = '';
 
+    // ---- Render Menu group ----
     if (!showingSnacksOnly) {
       html += CATEGORY_ORDER['Menu']
         .filter(cat => grouped[cat])
@@ -194,6 +208,7 @@
         .join('');
     }
 
+    // ---- Render Snacks group ----
     const hasSnacksItems = CATEGORY_ORDER['Snacks'].some(cat => grouped[cat]);
     if (hasSnacksItems && !showingMenuOnly) {
       html += renderSnacksGroup(grouped);
@@ -205,8 +220,9 @@
   // ---- Fetch & init ----
   async function init() {
     try {
-      const res = await fetch('./menuData.json?v=' + Date.now());
+      const res = await fetch('./menuData.json');
       const raw = await res.text();
+      // Strip JS-style comments from JSON (// ...) so we can parse it
       const clean = raw.replace(/\/\/.*$/gm, '');
       menuData = JSON.parse(clean);
       buildCategoryNav(menuData);
@@ -214,7 +230,7 @@
     } catch (err) {
       document.getElementById('menuContainer').innerHTML =
         `<p style="text-align:center;color:#ef4444;padding:40px;">
-         Could not load menu data. Ensure menuData.json is in the same folder.
+         ⚠️ Could not load menu data. Ensure menuData.json is in the same folder.
        </p>`;
       console.error('Failed to load menuData.json:', err);
     }
@@ -224,7 +240,9 @@
   document.getElementById('searchInput').addEventListener('input', (e) => {
     searchQuery = e.target.value.trim();
     if (searchQuery) {
-      document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.cat-btn').forEach(b =>
+        b.classList.remove('active')
+      );
     } else {
       document.querySelectorAll('.cat-btn').forEach(b =>
         b.classList.toggle('active', b.dataset.cat === activeCategory)
@@ -242,7 +260,7 @@
 
   // ---- Theme Toggle ----
   const themeToggleBtn = document.getElementById('themeToggle');
-  const savedTheme = localStorage.getItem('theme') || 'dark';
+  const savedTheme = localStorage.getItem('theme') || 'dark'; // Default to dark as requested previously
   document.documentElement.setAttribute('data-theme', savedTheme);
 
   themeToggleBtn.addEventListener('click', () => {
